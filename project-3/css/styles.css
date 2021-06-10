@@ -9,9 +9,10 @@ h1{
 
 .banner{
     text-align: center;
-    border-bottom: solid black 1px;
+    border-bottom: solid black 3px;
     display: block;
-    margin: auto;
+    max-width: 95%;
+    margin: 0 auto 5px auto
 }
 
 form {
@@ -30,8 +31,8 @@ body{
 }
 
 button{
-    width: 95%;
-    margin: auto;   
+    width: 100%;
+    margin: 10px auto;   
     background-color: #4ebbb5;
     color: white;
     font-size: large;
@@ -124,7 +125,18 @@ input[placeholder]{
     display: block;
   }
 
+ hr{
+    display:none;
+    }
 
+  footer{
+    text-align:center;
+    font-style: italic;
+    }
+
+    .topics{
+        margin-top: 10px;
+    }
 
   @media screen and (min-width:768px) {
 
@@ -154,7 +166,17 @@ input[placeholder]{
     }    
 
     .newsletter {
-        border-top: 1px solid black;
-        padding-top: 50px;
+        padding-top: 5px;
     }
+
+    hr{
+        display:block;
+        border-top: 1px black solid;
+    }
+
+    .banner{
+        width: 60%;
+        margin: 5px auto;
+    }
+
   }
